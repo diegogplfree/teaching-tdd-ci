@@ -17,9 +17,6 @@ notifications:
 cache:
  directories:
    - $HOME/.composer/cache/files
-# Install composer dependencies,
-install:
- - composer install
 # Run script
 script:
  - vendor/bin/phpunit tests --coverage-text
