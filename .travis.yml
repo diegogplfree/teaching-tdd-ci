@@ -22,7 +22,7 @@ install:
  - composer install
 # Run script
 script:
- - phpunit tests --coverage-text
+ - vendor/bin/phpunit tests --coverage-text
 # After a build, send email notification with the build results
 notifications:
  email: diego.gpl.free@gmail.com
