@@ -1,0 +1,15 @@
+{
+    "name": "darboleda/strategy",
+    "require": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "authors": [
+        {
+            "name": "Diego Arboleda",
+            "email": "diego.gpl.free@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Src\\": "src/"}
+    }
+}
