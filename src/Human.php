@@ -17,7 +17,7 @@ class Human extends Animal
 	 * 
 	 * @author  Diego Arboleda <ing.diego.fernando.arboleda@gmail.com>
 	 */
-	public function display(): string
+	private function display(): string
 	{
 		return "I am a human!";
 	}
